@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lara | About</title>
+</head>
+<body>
+    <h1>about page</h1>
+    <h3><?php echo $name ?></h3>
+    <h3><?= $email ?></h3>
+    <h3>{{ $address }}</h3>
+    
+
+    <img src="img/orange.jpg" alt="orange" width="200">
+    <img src="img/<?= $image ?>" alt="<?= $name ?>" width="200">
+</body>
+</html>
