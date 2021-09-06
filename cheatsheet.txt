@@ -1,0 +1,43 @@
+Category::create([
+    'name' => 'Web Design',
+    'slug' => 'web-design'
+])
+
+
+Category::create([
+    'name' => 'Personal',
+    'slug' => 'personal'
+])
+
+
+
+Post::create([
+    'title' => 'Judul Pertama',
+    'category_id' => 1,
+    'slug' => 'judul-pertama',
+    'excerpt' => 'Lorem ipsum dolor sit amet, conseceifend erat in',
+    'body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar porta nibh eu ultrices. Nam eu nulla ligula. Sed commodo rhoncus sollicitudin. Sed id risus neque. Donec in vestibulum risus. Integer et vestibulum arcu. Nullam sed molestie sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam eget ipsum vel nisi bibendum ullamcorper. Morbi ligula elit, congue sagittis mattis ut, consequat nec diam. Integer rutrum imperdiet felis, vel hendrerit felis. Pellentesque porttitor dapibus ex, et condimentum urna porta non. Phasellus orci felis, laoreet nec vehicula non, mattis in velit. Pellentesque eleifend erat in lobortis euismod. Sed rhoncus, risus in tempor vestibulum, turpis neque tristique enim, sit amet interdum purus.'
+])
+
+Post::create([
+    'title' => 'Judul Kedua',
+    'category_id' => 1,
+    'slug' => 'judul-kedua',
+    'excerpt' => 'Lorem ipsum dolor sit amet, conseceifend erat in',
+    'body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar porta nibh eu ultrices. Nam eu nulla ligula. Sed commodo rhoncus sollicitudin. Sed id risus neque. Donec in vestibulum risus. Integer et vestibulum arcu. Nullam sed molestie sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam eget ipsum vel nisi bibendum ullamcorper. Morbi ligula elit, congue sagittis mattis ut, consequat nec diam. Integer rutrum imperdiet felis, vel hendrerit felis. Pellentesque porttitor dapibus ex, et condimentum urna porta non. Phasellus orci felis, laoreet nec vehicula non, mattis in velit. Pellentesque eleifend erat in lobortis euismod. Sed rhoncus, risus in tempor vestibulum, turpis neque tristique enim, sit amet interdum purus.'
+])
+
+Post::create([
+    'title' => 'Judul Ketiga',
+    'category_id' => 3,
+    'slug' => 'judul-ketiga',
+    'excerpt' => 'Lorem ipsum dolor sit amet, conseceifend erat in',
+    'body' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas pulvinar porta nibh eu ultrices. Nam eu nulla ligula. Sed commodo rhoncus sollicitudin. Sed id risus neque. Donec in vestibulum risus. Integer et vestibulum arcu. Nullam sed molestie sapien. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam eget ipsum vel nisi bibendum ullamcorper. Morbi ligula elit, congue sagittis mattis ut, consequat nec diam. Integer rutrum imperdiet felis, vel hendrerit felis. Pellentesque porttitor dapibus ex, et condimentum urna porta non. Phasellus orci felis, laoreet nec vehicula non, mattis in velit. Pellentesque eleifend erat in lobortis euismod. Sed rhoncus, risus in tempor vestibulum, turpis neque tristique enim, sit amet interdum purus.'
+])
+
+
+
+
+
+
+
