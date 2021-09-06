@@ -11,7 +11,8 @@
     {{-- <p>by who in {{ $post->category->name }}</p> --}}
 
     {{-- verse 2, clickable --}}
-    <p>by who in 
+    <p>by 
+        <a href="#">{{ $post->user->name }}</a> in 
         <a href="/categories/{{ $post->category->slug }}">
         {{ $post->category->name }}
         </a>
